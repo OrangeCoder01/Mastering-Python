@@ -1,7 +1,8 @@
 st = input("Enter String: ")
 
 # Code War Challenge {Suzuki needs help lining up his students!}
-
+#if st == "":
+    #return ""
 st = st + " " 
 # string parsing - space detection method must anticipate a space at the end of string, otherwise the last name won't be enlisted
 
@@ -249,5 +250,6 @@ for i in range(len(sorted_name_string_matrix)):
         print("The Final list:")
         
     print(sorted_name_string_matrix[i])
+#return sorted_name_string_matrix
     
  
